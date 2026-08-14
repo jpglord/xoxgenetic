@@ -5,10 +5,10 @@ import (
 	"math/rand/v2"
 	"slices"
 
-	"github.com/Akif-jpg/xoxgenetic/agent"
-	"github.com/Akif-jpg/xoxgenetic/gaengine"
-	"github.com/Akif-jpg/xoxgenetic/roundcontroller"
-	game "github.com/Akif-jpg/xoxgenetic/xoxtable"
+	"github.com/jpglord/xoxgenetic/agent"
+	"github.com/jpglord/xoxgenetic/gaengine"
+	"github.com/jpglord/xoxgenetic/roundcontroller"
+	game "github.com/jpglord/xoxgenetic/xoxtable"
 )
 
 // winningCells lists the cells where side would immediately win by playing.

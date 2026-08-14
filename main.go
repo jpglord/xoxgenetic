@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Akif-jpg/xoxgenetic/agent"
-	"github.com/Akif-jpg/xoxgenetic/gaengine"
-	game "github.com/Akif-jpg/xoxgenetic/xoxtable"
+	"github.com/jpglord/xoxgenetic/agent"
+	"github.com/jpglord/xoxgenetic/gaengine"
+	game "github.com/jpglord/xoxgenetic/xoxtable"
 )
 
 func main() {

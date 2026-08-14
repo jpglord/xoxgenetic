@@ -3,9 +3,9 @@ package gaengine
 import (
 	"sync"
 
-	"github.com/Akif-jpg/xoxgenetic/agent"
-	"github.com/Akif-jpg/xoxgenetic/roundcontroller"
-	game "github.com/Akif-jpg/xoxgenetic/xoxtable"
+	"github.com/jpglord/xoxgenetic/agent"
+	"github.com/jpglord/xoxgenetic/roundcontroller"
+	game "github.com/jpglord/xoxgenetic/xoxtable"
 )
 
 // Generation is one batch of X and O populations, all sharing the same

@@ -4,8 +4,8 @@ import (
 	"math/rand/v2"
 	"sync"
 
-	"github.com/Akif-jpg/xoxgenetic/agent"
-	"github.com/Akif-jpg/xoxgenetic/xoxtable"
+	"github.com/jpglord/xoxgenetic/agent"
+	"github.com/jpglord/xoxgenetic/xoxtable"
 )
 
 type Match struct {

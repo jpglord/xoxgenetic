@@ -2,7 +2,7 @@ package agent
 
 import (
 	"github.com/google/uuid"
-	game "github.com/Akif-jpg/xoxgenetic/xoxtable"
+	game "github.com/jpglord/xoxgenetic/xoxtable"
 )
 
 // OAgent plays as O.

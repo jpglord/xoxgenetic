@@ -1,6 +1,6 @@
 package gaengine
 
-import "github.com/Akif-jpg/xoxgenetic/agent"
+import "github.com/jpglord/xoxgenetic/agent"
 
 // TeamStats summarizes one team's fitness within a generation.
 type TeamStats struct {

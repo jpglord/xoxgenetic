@@ -17,7 +17,7 @@ There is no linter or CI config in this repo beyond `go vet`.
 
 ## Architecture
 
-Module: `github.com/Akif-jpg/xoxgenetic`. Three packages:
+Module: `github.com/jpglord/xoxgenetic`. Three packages:
 
 - **`xoxtable`** — the game engine. `Table` (`table.go`) is a `[9]Cell` board (`X`, `O`, or `E` for empty); `check.go` has the pure win/finish predicates (`IsGameWin`, `IsGameFinish`). `movement.go` defines `MovementTree`, which is both the CPU's move-selection logic and its memory: each node holds a board state (`current`), a chosen `move` (currently picked at random via `randomMove`), the resulting `Table`, and cached `won`/`finished` flags. `ObtainMovement(table)` walks a node's `nexts` for a child matching `table`; if none exists it creates one via `newMovementNode` and appends it. The tree is never pruned, so it accumulates every board state a given root has ever seen — this is the substrate the eventual genetic algorithm will select/mutate over.
 

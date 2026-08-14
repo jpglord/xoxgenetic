@@ -3,7 +3,7 @@ package main
 import (
 	"math/rand/v2"
 
-	game "github.com/Akif-jpg/xoxgenetic/xoxtable"
+	game "github.com/jpglord/xoxgenetic/xoxtable"
 )
 
 // A perfect X is the only benchmark that cannot be gamed by training: perfect

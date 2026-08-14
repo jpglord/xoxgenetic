@@ -5,8 +5,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/Akif-jpg/xoxgenetic/agent"
-	game "github.com/Akif-jpg/xoxgenetic/xoxtable"
+	"github.com/jpglord/xoxgenetic/agent"
+	game "github.com/jpglord/xoxgenetic/xoxtable"
 )
 
 // breedWorkers is the fixed number of goroutines that breed children

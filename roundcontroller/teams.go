@@ -1,8 +1,8 @@
 package roundcontroller
 
 import (
-	"github.com/Akif-jpg/xoxgenetic/agent"
-	game "github.com/Akif-jpg/xoxgenetic/xoxtable"
+	"github.com/jpglord/xoxgenetic/agent"
+	game "github.com/jpglord/xoxgenetic/xoxtable"
 )
 
 // NewTeams builds size fresh generation-0 X and O agents. Each call returns

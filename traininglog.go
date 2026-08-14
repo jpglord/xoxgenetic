@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Akif-jpg/xoxgenetic/gaengine"
+	"github.com/jpglord/xoxgenetic/gaengine"
 )
 
 // trainingLogger appends one row per evaluated generation to a CSV file so

@@ -183,7 +183,7 @@ random opponents to broaden what O actually sees.
 
 A genuinely joint project.
 
-**Akif-jpg** wrote the original `xoxtable`, `agent` and `roundcontroller` — the
+**jpglord** wrote the original `xoxtable`, `agent` and `roundcontroller` — the
 game engine, the movement tree that became the genome, and the match runner —
 and made the calls that mattered most at the turning points: rejecting tree-size
 capping as fighting selection, asking for crossover to be parallelised the way

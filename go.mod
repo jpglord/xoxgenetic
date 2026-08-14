@@ -1,4 +1,4 @@
-module github.com/Akif-jpg/xoxgenetic
+module github.com/jpglord/xoxgenetic
 
 go 1.26.5
 

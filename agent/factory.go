@@ -2,7 +2,7 @@ package agent
 
 import (
 	"github.com/google/uuid"
-	game "github.com/Akif-jpg/xoxgenetic/xoxtable"
+	game "github.com/jpglord/xoxgenetic/xoxtable"
 )
 
 // NewAgent builds a fresh agent for the given side (game.X or game.O) and
