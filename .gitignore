@@ -1,0 +1,11 @@
+# Compiled binary (same name as the module)
+/xoxgenetic
+
+# Training logs are per-run artifacts
+ga_training_*.csv
+
+# Editor lock files
+.~lock.*#
+
+# Local tool settings
+.claude/
